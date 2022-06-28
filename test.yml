@@ -9,4 +9,3 @@
     - name: assert binary prints help output
       debug:
         msg: '{{ abc_test_output.stdout }}'
-

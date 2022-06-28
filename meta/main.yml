@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: azure_blob_cli
   author: Bradford Wagner
   description: installs azure blob cli (abc)
   company: Blackrock Financial Management

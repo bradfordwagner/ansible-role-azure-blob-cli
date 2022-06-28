@@ -21,4 +21,3 @@ abc_checksums:
     Linux_x86_64: sha256:e7cef1d56e20f2999b733d27931d88e94516fdf8e2bcd930e7a91f10d20746ee
     # https://github.com/bradfordwagner/go-azure-blob-cli/releases/download/1.0.1/go-azure-blob-cli_1.0.1_Windows_x86_64.tar.gz
     Windows_x86_64: sha256:f475223d34354bbcc628c37c359c5535f01758a136d435fa46630e4cf7c4bc05
-
