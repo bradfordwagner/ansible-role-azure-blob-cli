@@ -40,6 +40,8 @@ spec:
             value: "{{ item.platform }}"
           - name: runtime_platforms
             value: "{{ item.runtime_platforms }}"
+          - name: ansible_debug
+            value: false
         templateRef:
           name: flavor-ansible-role-template
           template: main
@@ -50,3 +52,4 @@ spec:
         - { platform: ubuntu_focal    , runtime_platforms: [linux/amd64, linux/arm64] }
         - { platform: debian_buster   , runtime_platforms: [linux/amd64, linux/arm64] }
         - { platform: debian_bullseye , runtime_platforms: [linux/amd64, linux/arm64] }
+
