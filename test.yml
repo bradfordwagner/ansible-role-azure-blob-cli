@@ -2,7 +2,7 @@
 - hosts: localhost
   roles:
     - role: '{{ playbook_dir }}'
-      abc_ver: 1.0.1
+      abc_ver: 1.3.1
   tasks:
     - command: /usr/local/bin/abc
       register: abc_test_output

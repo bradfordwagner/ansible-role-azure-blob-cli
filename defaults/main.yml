@@ -1,14 +1,24 @@
 ---
 # defaults file for azure-blob-cli
-abc_ver: 1.0.1
+abc_ver: 1.3.1
 abc_parent_install_dir: /usr/local
 abc_mirror: https://github.com/bradfordwagner/go-azure-blob-cli/releases/download
 
 abc_ansible_arch_to_download_arch:
-  x86_64: x86_64
+  x86_64: amd64
   aarch64: arm64
 
 abc_checksums:
+  # https://github.com/bradfordwagner/go-azure-blob-cli/releases/download/1.3.1/checksums.txt
+  1.3.1:
+    # https://github.com/bradfordwagner/go-azure-blob-cli/releases/download/1.3.1/go-azure-blob-cli_1.3.1_darwin_amd64.tar.gz
+    darwin_amd64: sha256:5080f646ff5e508670910740606716edab32f5a13754b58098c908b54cade960
+    # https://github.com/bradfordwagner/go-azure-blob-cli/releases/download/1.3.1/go-azure-blob-cli_1.3.1_darwin_arm64.tar.gz
+    darwin_arm64: sha256:622493063ab4c256292b227910ed967f51df60e9feee1010357337545fb04d3a
+    # https://github.com/bradfordwagner/go-azure-blob-cli/releases/download/1.3.1/go-azure-blob-cli_1.3.1_linux_amd64.tar.gz
+    linux_amd64: sha256:4687f692f22e5d4ee22f33b05ccc8064b92012e9df298d19eb59390ce3f65e9a
+    # https://github.com/bradfordwagner/go-azure-blob-cli/releases/download/1.3.1/go-azure-blob-cli_1.3.1_linux_arm64.tar.gz
+    linux_arm64: sha256:9fb8a08c1ba58449230f885aa2c9a09fca40049b8b1d928953cc7f14a2a132ba
   # https://github.com/bradfordwagner/go-azure-blob-cli/releases/download/1.1.0/checksums.txt
   1.1.0:
     # https://github.com/bradfordwagner/go-azure-blob-cli/releases/download/1.1.0/go-azure-blob-cli_1.1.0_Darwin_arm64.tar.gz
