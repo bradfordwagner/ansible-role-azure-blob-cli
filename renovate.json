@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>bradfordwagner/renovate:ansible-role"],
+  "packageRules": [
+    {
+      "matchDepNames": ["bradfordwagner/go-azure-blob-cli"],
+      "postUpgradeTasks": {
+        "commands": ["node .github/renovate/abc-checksums.mjs {{{newVersion}}}"],
+        "fileFilters": ["defaults/main.yml"],
+        "executionMode": "branch"
+      }
+    }
+  ]
+}
